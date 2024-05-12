@@ -8,7 +8,8 @@ The scripts contained in this toolkit. They all have a link to a Jupyter Noteboo
 
 All outputs are put in `data/` directory, which is created if it doesn't exist. The outputs are in CSV format. Some scripts may create additional files, like temporary JSON files.
 
-> [!IMPORTANT] These scripts are scrapers, they not only take a while to run (speculatively) but you may also be termporarily rate limited/blocked by the GameJolt servers.
+> [!IMPORTANT]
+> These scripts are scrapers, they not only take a while to run (speculatively) but you may also be termporarily rate limited/blocked by the GameJolt servers.
 
 ### 1. Fetch all user charges **[Creator Only]**
 - [`fetch_user_charges.ipynb`](fetch_user_charges.ipynb)
@@ -58,7 +59,8 @@ GJ_COOKIE = 'your_session_cookie'
 
 **Don't share this session cookie to others, it can be used to hijack your account.**
 
-> [!NOTE] This is essential for the scripts because it is used to authenticate the user (you) and make requests to the GameJolt API.
+> [!NOTE]
+> This is essential for the scripts because it is used to authenticate the user (you) and make requests to the GameJolt API.
 
 ## Contributions
 You are very much free to contribute to this project with your own ideas and scripts. Create a pull request and I will review it. If you have any questions, feel free to open an issue. Keep the overall structure of the repository and scripts and keep it clean, update documentation(s) if you add a new script.
